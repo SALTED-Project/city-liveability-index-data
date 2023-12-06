@@ -72,3 +72,11 @@ For some existing problems in the code, we fixed those either on the latest code
 - If the entity is a polygon, the location of it should be a polygon (not simple coordinate)
 - Coordinates should be lon, lat order (e.g., [20.12, 12.32] corresponds to 20.12 lon and 12.32 lat.
 - While creating an Entity using the "Entity()" constructor of the NGSI-LD library, make sure to add a third argument (if not there already).
+
+Acknowledgement to the open data used in the CEF SALTED project: 
+For Madrid dataset:
+Origen de los datos: Ayuntamiento de Madrid, data obtained in 06/2023
+
+Building dataset: EUBUCCO, citation to the relevant paper:
+Milojevic-Dupont, N., Wagner, F., Nachtigall, F. et al. EUBUCCO v0.1: European building stock characteristics in a common and open database for 200+ million individual buildings. Sci Data 10, 147 (2023). https://doi.org/10.1038/s41597-023-02040-2
+
